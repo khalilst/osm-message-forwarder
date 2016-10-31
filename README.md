@@ -11,6 +11,7 @@ A tool to send invitation message to new OSM users
     3. You're done! A page for send message to new users loaded.
         You can see couple of iframes each with username at its header.
         After successful sent, iframes will faded into white background.
+        Usernames stored in sent.txt file and everytime it will be updated.
 
 # License
     This project is under Apache Version 2 License.
