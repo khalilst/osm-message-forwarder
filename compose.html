@@ -1,0 +1,209 @@
+<html dir="ltr" lang="en-US"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+  <!--[if lt IE 9]><script src="/assets/html5shiv-b78088aea95ad63c22076f8f5ec8b483a89f067bcf59a009eedb428755547a1a.js"></script><![endif]-->
+  <link rel="stylesheet" media="screen" href="/assets/screen-ltr-d5ac9c60ab4858cfcc4be28495d23425ad7f1b6def4e0a043f7e67ad0fa57262.css">
+  <link rel="stylesheet" media="print" href="/assets/print-ltr-f0e982d0ba074e914962563e26dfc48b3d2d9a05e5442932889cec8769cd2eaf.css">
+  <link rel="stylesheet" media="screen, print" href="/assets/leaflet-all-d3fa167174c2340588f3a539b362efa81b0c1cb5c9160106bd0a1e6be0a64b76.css">
+  <!--[if IE]>
+    <link rel="stylesheet" media="screen" href="/assets/large-ltr-1cf527cfc2440d0b93cd4bf36e61bd90.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-bf2dfee28b5006e3ea82ef78ae7f42adc1e2024165fbd39cadc9517a7d2bd8bf.ico" />
+  <![endif]-->
+  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-57x57-3fb65f787d95381a1fc1310a03599228f9a2b34615c0bb002510cfcfa3ab7d7b.png" sizes="57x57">
+  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-60x60-24d8c222e95e5769237fecb64e3d9396f8087391f4254e807fe5981f445ef9ec.png" sizes="60x60">
+  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-72x72-cbcf21a01fc6e7d59ab1d61523f5ec569dc34e6e31e279e17df0ef81000ff20e.png" sizes="72x72">
+  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-76x76-763efbc4c5186950149f5bfd214ca47153ef55b86f43c6c28dbd1b9645308c6e.png" sizes="76x76">
+  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-114x114-d63eb634fffcf58470b207260ca4680e74f5601786c3f3acf5242a7d3b0c2428.png" sizes="114x114">
+  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-120x120-6b9842ca3d9d3f6c216b27a37e9d1437d405cc63048907db39fce7f790c169e4.png" sizes="120x120">
+  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-144x144-4af65b3317dc639c0470834ece0feeae85426717cfaf258f070e9d4631652213.png" sizes="144x144">
+  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-152x152-2c9080d0432e558575e840c72c8181676f7e3072c584225341d4b8913fc91a29.png" sizes="152x152">
+  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-180x180-d259f523a4a6fedd1eceb58a9ae89ca567c4898fb084954e2028a7a72f5e76b5.png" sizes="180x180">
+  <link rel="icon" type="image/png" href="/assets/favicon-32x32-36d06d8a01933075bc7093c9631cffd02d49b03b659f767340f256bb6839d990.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicon-194x194-d344a6bd2033108770b5ab4f8ac939d296872baee00278e5b2bc87e150c9be61.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/assets/favicon-96x96-538aa7e9e2315beabc6b074c4d7688602fe2b39ecd6e80f5e55f92c2be21744a.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/android-chrome-192x192-1d10acc5e9ee8558d223e434537a58ec30414cc2bd86562b8c30f77d72df845e.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicon-16x16-b5e4abe84fb615809252921d52099ede3236d1b7112ea86065a8e37e421c610b.png" sizes="16x16">
+  <link rel="manifest" href="/assets/manifest-66ee8c38f7aa3fcb7c528e518ccc67d1d61c0dabd004359b2fc01f463d4340f9.json">
+  <meta name="msapplication-config" content="/assets/browserconfig-452fba6260105b79bf7c858b07d05d84afcbfd713b17bb800e3f8328dfdab78e.xml">
+  <meta name="msapplication-TileColor" content="#00a300">
+  <meta name="msapplication-TileImage" content="/assets/mstile-144x144-7ca1379c629c16f810daaf2a6cc1945eb92f771fcd6ba14dac02a2fd6bf1f45c.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="publisher" href="https://plus.google.com/111953119785824514010">
+  <link rel="search" type="application/opensearchdescription+xml" title="OpenStreetMap Search" href="/assets/osm-56590ff64c4318003dfdd1c3edd7acf3eb8c2ccada67987495274cbadf821cdf.xml">
+  <meta name="description" content="OpenStreetMap is the free wiki world map.">
+  <meta property="og:site_name" content="OpenStreetMap"><meta property="og:title" content="OpenStreetMap | Send message"><meta property="og:type" content="website"><meta property="og:image" content="http://www.openstreetmap.org/assets/osm_logo_256-835a859acf0d378e1d14e88b15e7b4b95211ccd41a2c061b1629cfbbb8deb697.png"><meta property="og:image:secure_url" content="https://www.openstreetmap.org/assets/osm_logo_256-835a859acf0d378e1d14e88b15e7b4b95211ccd41a2c061b1629cfbbb8deb697.png"><meta property="og:url" content="https://www.openstreetmap.org/message/new/user_name"><meta property="og:description" content="OpenStreetMap is a map of the world, created by people like you and free to use under an open license.">
+  <style type="text/css">.hidden { display: none !important }.hide_if_logged_in { display: none !important }.hide_if_user_4449060 { display: none !important }.show_if_user_4449060 { display: inline !important }.hide_unless_administrator { display: none !important }.hide_unless_moderator { display: none !important }</style>
+  
+  
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="ZXtC9ROdBFmO9aNJHifZGteYENn/EY3SpcmICh2J8H9yedzju8694zck6GKNuitNyXmUn5yOuH16vLgefpvxkQ==">
+  <title>OpenStreetMap | Send message</title>
+</head>
+
+  <body class="message message-new">
+    <h4>user_name</h4>
+    <header class="closed">
+  <h1>
+    <a href="/" class="geolink">
+      <picture>
+        <source srcset="/assets/osm_logo-a8e4877d9cf38f11b8f263dbc658bafcd258f1551a527309b372e7ef0100c8c6.svg" type="image/svg+xml">
+        <img srcset="/assets/osm_logo-a8e4877d9cf38f11b8f263dbc658bafcd258f1551a527309b372e7ef0100c8c6.svg" alt="OpenStreetMap logo" class="logo" src="/assets/osm_logo-0e19527a1cc9fdf566c217d6e1863d88cac7bb743914792dea5d8db813501ad6.png">
+      </picture>
+      OpenStreetMap
+    </a>
+  </h1>
+  <a href="#" id="menu-icon"></a>
+  <nav class="primary">
+    
+    <ul>
+      <li id="edit_tab" class="dropdown ">
+        <a class="tab geolink editlink" id="editanchor" data-editor="id" href="/edit">Edit</a><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li>
+              <a data-editor="id" class="geolink editlink" href="/edit?editor=id">Edit with iD (in-browser editor)</a>
+            </li>
+            <li>
+              <a data-editor="potlatch2" class="geolink editlink" href="/edit?editor=potlatch2">Edit with Potlatch 2 (in-browser editor)</a>
+            </li>
+            <li>
+              <a data-editor="remote" class="geolink editlink" href="/edit?editor=remote">Edit with Remote Control (JOSM or Merkaartor)</a>
+            </li>
+        </ul>
+      </li>
+      <li id="history_tab" class="">
+        <a class="tab geolink" href="/history">History</a>
+      </li>
+      <li id="export_tab" class="">
+        <a class="tab geolink" href="/export">Export</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="secondary">
+    <ul>
+      <li class="compact-hide "><a href="/traces">GPS Traces</a></li>
+      <li class="compact-hide "><a href="/diary">User Diaries</a></li>
+      <li class="compact-hide "><a href="/copyright">Copyright</a></li>
+      <li class="compact-hide "><a href="/help">Help</a></li>
+      <li class="compact-hide "><a href="/about">About</a></li>
+      <li id="compact-secondary-nav" class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">More <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li class=""><a href="/traces">GPS Traces</a></li>
+          <li class=""><a href="/diary">User Diaries</a></li>
+          <li class=""><a href="/copyright">Copyright</a></li>
+          <li class=""><a href="/help">Help</a></li>
+          <li class=""><a href="/about">About</a></li>
+        </ul>
+      </li>
+    </ul>
+      <div class="dropdown user-menu logged-in">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          <img class="user_thumbnail_tiny" alt="" src="https://www.gravatar.com/avatar/df85bde0a4cb6fff71a451e03732d18c.jpg?s=25&amp;d=https%3A%2F%2Fwww.openstreetmap.org%2Fassets%2Fusers%2Fimages%2Flarge-afe7442b856c223cca92b1a16d96a3266ec0c86cac8031269e90ef93562adb72.png" width="25" height="25"><span class="user-button"><span class="username">user_name</span>
+          <b class="caret"></b></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="/user/Khalil%20Laleh/inbox">
+              <span class="count-number">0</span>
+              My Messages
+</a>          </li>
+          <li>
+            <a href="/user/Khalil%20Laleh">My Profile</a>
+          </li>
+          <li>
+            <a href="/user/Khalil%20Laleh/account">My Settings</a>
+          </li>
+          <li class="divider"></li>
+          <li>
+            
+          </li>
+          <li>
+            <a href="/logout?referer=%2Fmessage%2Fnew%2Fuser_name&amp;session=105d1cb5d99c60d0a40f2c523af20f3f">Log Out</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+</header>
+
+    <div id="content" class="">
+    
+
+
+      <div class="content-heading">
+        <div class="content-inner">
+            <h2>Send a new message to <a href="/user/user_name">user_name</a></h2>
+
+        </div>
+      </div>
+    <div class="content-body">
+      <div class="content-inner">
+        
+
+
+<form class="standard-form" action="https://www.openstreetmap.org/message/new/user_name" accept-charset="UTF-8" method="post"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="ZXtC9ROdBFmO9aNJHifZGteYENn/EY3SpcmICh2J8H9yedzju8694zck6GKNuitNyXmUn5yOuH16vLgefpvxkQ==" type="hidden">
+  <fieldset>
+    <div class="form-row">
+      <label class="standard-label">Subject</label>
+      <input size="60" class="richtext_title" name="message[title]" id="message_title" type="text"
+        value="دعوت به گروه تلگرام بچه‌های OSM ایران"
+      >
+    </div>
+    <div class="form-row">
+      <label class="standard-label">Body</label>
+      <div id="message_body_container" class="richtext_container"><div id="message_body_content" class="richtext_content">
+      <textarea cols="80" rows="20" data-preview-url="https://www.openstreetmap.org/preview/markdown" name="message[body]" id="message_body">
+سلام دوست عزيز
+ما توي تلگرام يه گروه مخصوص بچه هايي که توي اين سايت نقشه هاي ايران رو تکميل ميکنن ساختيم.
+چند نفر از با تجربه ترين افراد در اين زمينه تو اين گروه هستند.
+خوشحال ميشيم تشريف بياريد به گروه خودتون
+ https://telegram.me/joinchat/BP9kIj3PaK-nfLzlPeYjrA
+
+Hello dear friend
+We have Telegram group specially for the people contributing to make the map for Iran.
+There are couple of geeks in this field here by our side.
+And it will be a pleasure to join Your group
+ https://telegram.me/joinchat/BP9kIj3PaK-nfLzlPeYjrA
+       </textarea>
+      <div id="message_body_preview" class="richtext_preview richtext" style="display: none;"></div></div><div id="message_body_help" class="richtext_help"><h4 class="heading">Parsed with <a href="http://daringfireball.net/projects/markdown/">Markdown</a></h4>
+<ul>
+  <li>
+    <h4>Headings</h4>
+    <p># Heading<br>
+       ## Subheading</p>
+  </li>
+  <li>
+    <h4>Unordered list</h4>
+    <p>* First item<br>
+       * Second item</p>
+  </li>
+  <li>
+    <h4>Ordered list</h4>
+    <p>1. First item<br>
+       2. Second item</p>
+  </li>
+  <li>
+    <h4>Link</h4>
+    <span>[Text](URL)</span>
+  </li>
+  <li>
+    <h4>Image</h4>
+    <span>![Alt text](URL)</span>
+  </li>
+</ul>
+<div class="buttons"><input name="commit" value="Edit" id="message_body_doedit" class="richtext_doedit deemphasize" disabled="" type="submit"><input name="commit" value="Preview" id="message_body_dopreview" class="richtext_dopreview deemphasize" type="submit"></div></div></div>
+    </div>
+    <div class="buttons">
+      <input name="commit" value="Send" type="submit">
+      <a class="deemphasize button" href="/user/Khalil%20Laleh/inbox">Back to inbox</a>
+    </div>
+  </fieldset>
+</form>
+      </div>
+    </div>
+</div>
+
+    <script src="jquery.min.js"></script>
+    <script src="child.js"></script>
+
+</body></html>
