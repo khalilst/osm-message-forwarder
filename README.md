@@ -1,5 +1,5 @@
 # OSM Message Forwarder
-A tool to send invitation message to new OSM users
+A tool used to send invitation message to new OSM users
 
 # Requirements:
     1. PHP >= 5.4
